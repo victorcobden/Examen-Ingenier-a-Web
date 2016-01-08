@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Validacion Examen Parcial</title>
+    <meta name="author" content="Victor Roque" />
+    <meta name="description" content="Examen Parcial" />
+    <meta name="keywords" content="Examen,Parcial,UC" />
+    <script src="js/validacion.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Validación</h1>
+    </header>
+    <section>
+        <form method="post" id="xfor">
+            <label for="CompanyName">CompanyName</label><br />
+            <input name="CompanyName" id="CompanyName" type="text" placeholder="CompanyName..." autocomplete="off"><br />
+            <label for="ContactName">ContactName</label><br />
+            <input name="ContactName" id="ContactName" type="text" placeholder="ContactName..."><br />
+            <label for="ContactTitle">ContactTitle</label><br />
+            <input name="ContactTitle" id="ContactTitle" type="text" placeholder="ContactTitle..."><br />
+            <label for="Address">Address</label><br />
+            <input name="Address" id="Address" type="text" placeholder="Address..." autocomplete="off"><br />
+            <label for="City">City</label><br />
+            <input name="City" id="City" type="text" placeholder="City..." autocomplete="off"><br />
+            <label for="Region">Region</label><br />
+            <input name="Region" id="Region" type="text" placeholder="Region..." autocomplete="off"><br />
+            <label for="PostalCode">PostalCode</label><br />
+            <input name="PostalCode" id="PostalCode" type="text" placeholder="PostalCode..." autocomplete="off"><br />
+            <label for="Country">Country</label><br />
+            <input name="Country" id="Country" type="text" placeholder="Country..." autocomplete="off"><br />
+            <label for="Phone">Phone</label><br />
+            <input name="Phone" id="Phone" type="text" placeholder="Phone..." onkeypress="ValidaSoloNumeros()" autocomplete="off"><br />
+            <label for="Fax">Fax</label><br />
+            <input name="Fax" id="Fax" type="text" placeholder="Fax..." autocomplete="off"><br />
+
+            <!--BOTONES-->
+            <!--onClick="validarEmail(this.form.email.value);"-->
+            <input type="button" value="Enviar" class="btn btn-default botones" onclick="comprobardatos();">
+            <input type="button" value="Limpiar" class="btn btn-default botones" onclick="formReset()">
+        </form>
+
+    </section>
+</body>
+</html>

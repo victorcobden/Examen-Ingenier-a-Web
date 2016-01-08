@@ -1,0 +1,12 @@
+c:\users\almno\documents\visual studio 2013\Projects\Roque\Roque\bin\Roque.dll.config
+c:\users\almno\documents\visual studio 2013\Projects\Roque\Roque\bin\Roque.dll
+c:\users\almno\documents\visual studio 2013\Projects\Roque\Roque\bin\Roque.pdb
+c:\users\almno\documents\visual studio 2013\Projects\Roque\Roque\obj\Debug\Roque.csprojResolveAssemblyReference.cache
+c:\users\almno\documents\visual studio 2013\Projects\Roque\Roque\obj\Debug\Roque.dll
+c:\users\almno\documents\visual studio 2013\Projects\Roque\Roque\obj\Debug\Roque.pdb
+K:\Examen Parcial\Roque\Roque\bin\Roque.dll.config
+K:\Examen Parcial\Roque\Roque\bin\Roque.dll
+K:\Examen Parcial\Roque\Roque\bin\Roque.pdb
+K:\Examen Parcial\Roque\Roque\obj\Debug\Roque.csprojResolveAssemblyReference.cache
+K:\Examen Parcial\Roque\Roque\obj\Debug\Roque.dll
+K:\Examen Parcial\Roque\Roque\obj\Debug\Roque.pdb

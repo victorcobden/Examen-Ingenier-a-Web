@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RoqueMasterPage.master.cs" Inherits="Roque.RoqueMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="Victor Roque"/>
+    <meta name="description" content="Examen Parcial"/>
+    <meta name="keywords" content="Examen,Parcial,UC"/>
+    <title>Victor Roque</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div id="logo">
+                <figure>
+                    <img src="images/html5.png" alt="Logo de Página" height="200" width="200"/>
+                    <figcaption>Victor Hugo Roque Acuña</figcaption>
+                </figure>
+            </div>
+            <h1 class="text-center">Examen Parcial</h1>
+        </header>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <aside class="text-center">
+            <h2>Opciones</h2>
+            <a href="Productos.aspx" class="botones">Búsqueda de Productos</a>
+            <a href="Clientes.aspx" class="botones">Inserción de Clientes</a>
+        </aside>
+        <footer class="text-center">
+            <p>&copy; 2015 Roque Acuña Victor Hugo. Ingeniería WEB.</p>
+            <p>Código: U2011113414</p>
+            <a href="mailto:U2011113414@continental.edu.pe">U2011113414@continental.edu.pe</a>
+        </footer>
+    </form>
+</body>
+</html>
